@@ -1,0 +1,16 @@
+body{
+    background-color: #E3EEFC;
+}
+    body > img {
+        float: right;
+        margin-top: 200px;
+    }
+    header {
+        background-color: #FFFFFF;
+        height: 50px;
+        width: 100%;
+    }
+    header > img {
+        display: inline-block;
+        text-align: center;
+    }
