@@ -1,16 +1,52 @@
 body{
+    background-image: url(./background\ nb.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: #E3EEFC;
 }
-    body > img {
-        float: right;
-        margin-top: 200px;
-    }
     header {
-        background-color: #FFFFFF;
-        height: 50px;
-        width: 100%;
-    }
-    header > img {
         display: inline-block;
         text-align: center;
+        background-color: #FFFFFF;
+        height: 80px;
+        width: 100%;
+        margin: 0;
     }
+        header > img {
+            display: inline-block;
+            line-height: 300px;
+        }
+        .dropbox {
+            float: left;
+            text-decoration: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #7B8994;
+            border: 3px solid #7B8994;
+            border-radius: 10px;
+            padding: 5px;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-left: 15px;
+            margin-top: 15px;
+        }
+        .navigacija {
+            display: inline-block;
+            float: right;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-right: 30px;
+            margin-top: 10px;
+        }
+        .link {
+            display: inline-block;
+            text-decoration: none;
+            color: #0071E0;
+        }
+        .dot {
+            display: inline-block;
+            border-radius: 50%;
+            width: 4px;
+            height: 4px;
+            background-color: #0071E0;
+            margin: 10px;
+        }
+
