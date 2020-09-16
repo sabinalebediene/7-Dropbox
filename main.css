@@ -59,23 +59,10 @@ body{
         position: absolute;
         top: 50%;
         left: 0;
+        margin-top: 50px;
     }
-        h1 {
-            display: inline-block;
-            color: #47525D;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 40px;
-            margin-left: 50px;
-            line-height: 44px;
-            margin-right: 231px;
-        }
-        p {
-            color: #47525D;
-            font-size: 20px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
         .left-column {
-            background-color: green;
+            /* background-color: green; */
             text-align: center;
             width: 800px;
             margin-left: 50px;
@@ -84,19 +71,56 @@ body{
             left: 50%;
             transform: translate(-50px, -50px);
         }
+        h1 {
+            display: inline-block;
+            color: #47525D;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 34px;
+            margin-left: 95px;
+            line-height: 44px;
+            margin-right: 231px;
+        }
+        p {
+            color: #47525D;
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-right: 300px;
+            margin-top: -4px;
+            margin-left: 15px;
+        }
         .btn {
-            background-color: greenyellow;
+            display: inline-block;
+            float: left;
+            /* background-color: greenyellow; */
         }
         .blue-btn {
             display: inline-block;
+            float: left;
+            margin-left: 30px;
             background-color: #0071E0;
             color: #EFFFFF;
-            font-size: 10px;
+            font-size: 25px;
+            text-decoration: none;
+            padding: 12px;
+            padding-left: 25px;
+            padding-right: 25px;
+            line-height: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .basic-btn {
+            display: inline-block;
+            float: left;
+            margin-left: 30px;
+            background-color: #E2EEFC;
+            color: #4971E2;
+            border: 3px solid #0071E0;
+            font-size: 26px;
             text-decoration: none;
             padding: 10px;
-            padding-left: 50px;
-            padding-right: 50px;
+            padding-left: 25px;
+            padding-right: 25px;
             line-height: 20px;
-            border-radius: 20px;
+            border-radius: 5px;
             cursor: pointer;
         }
