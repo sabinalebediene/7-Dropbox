@@ -1,20 +1,24 @@
 body{
+    background-color: #E3EEFC;
     background-image: url(./background\ nb.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #E3EEFC;
+    object-fit: cover;
+    object-position: center;
+    margin: 0;
 }
     header {
         display: inline-block;
         text-align: center;
         background-color: #FFFFFF;
-        height: 80px;
+        height: 76px;
         width: 100%;
-        margin: 0;
+        margin: 0px;
     }
         header > img {
             display: inline-block;
-            line-height: 300px;
+            height: 55px;
+            margin-top: 10px;
         }
         .dropbox {
             float: left;
@@ -33,8 +37,9 @@ body{
             display: inline-block;
             float: right;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 23px;
             margin-right: 30px;
-            margin-top: 10px;
+            margin-top: 20px;
         }
         .link {
             display: inline-block;
@@ -49,4 +54,42 @@ body{
             background-color: #0071E0;
             margin: 10px;
         }
-
+    .container {
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        left: 0;
+    }
+        h1 {
+            display: inline-block;
+            color: #47525D;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 40px;
+            width: 50%;
+            height: 50%;
+        }
+        p {
+            color: #47525D;
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .left-column {
+            background-color: green;
+            margin-right: 300px;
+        }
+        .btn {
+            background-color: greenyellow;
+        }
+        .blue-btn {
+            display: inline-block;
+            background-color: #0071E0;
+            color: #EFFFFF;
+            font-size: 10px;
+            text-decoration: none;
+            padding: 10px;
+            padding-left: 50px;
+            padding-right: 50px;
+            line-height: 20px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
